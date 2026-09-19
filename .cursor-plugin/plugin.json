@@ -1,0 +1,14 @@
+{
+  "name": "miyo",
+  "displayName": "Miyo",
+  "version": "1.0.0",
+  "description": "Search, read, create, and edit files connected to Miyo.",
+  "author": {
+    "name": "Brevilabs"
+  },
+  "homepage": "https://www.miyo.md/docs",
+  "repository": "https://github.com/Brevilabs/miyo-agent-plugin",
+  "license": "MIT",
+  "keywords": ["miyo", "mcp", "notes", "search", "agent-plugins"],
+  "logo": "assets/logo.png"
+}
