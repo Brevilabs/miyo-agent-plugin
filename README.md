@@ -70,8 +70,12 @@ use `https://relay.miyo.md/mcp`.
 
 ```text
 .
+├── .cursor-plugin/
+│   └── plugin.json
 ├── LICENSE
 ├── README.md
+├── assets/
+│   └── logo.png
 ├── plugin.json
 ├── mcp.json
 └── skills/
@@ -79,9 +83,11 @@ use `https://relay.miyo.md/mcp`.
         └── SKILL.md
 ```
 
-`plugin.json` and `mcp.json` target Agent Plugins 1.0. The bundled
-`miyo-notes` skill guides agents to choose the correct search corpus and honor
-folder write permissions.
+The root `plugin.json` and `mcp.json` target Agent Plugins 1.0. The
+`.cursor-plugin/plugin.json` manifest adds Cursor marketplace metadata and
+references the Miyo app logo without changing the portable package contents.
+The bundled `miyo-notes` skill guides agents to choose the correct search
+corpus and honor folder write permissions.
 
 ## Marketplace publication
 
